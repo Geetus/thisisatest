@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: thisone.TestCalc
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in thisone.TestCalc
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.048 s <<< FAILURE! - in thisone.TestCalc
+thisone.TestCalc.testSubtract  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <5>
+	at thisone.TestCalc.testSubtract(TestCalc.java:15)
+

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="thisone.TestCalc" time="0.063" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="thisone.TestCalc" time="0.048" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\A1\tut4\my-app\target\test-classes;C:\A1\tut4\my-app\target\classes;C:\Users\PC-2\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\PC-2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\PC-2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\PC-2\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\PC-2\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-RC1\junit-jupiter-engine-5.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-RC1\junit-platform-engine-1.7.0-RC1.jar;"/>
+    <property name="java.class.path" value="C:\A1\my-app\target\test-classes;C:\A1\my-app\target\classes;C:\Users\PC-2\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\PC-2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\PC-2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\PC-2\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\PC-2\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-RC1\junit-jupiter-engine-5.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-RC1\junit-platform-engine-1.7.0-RC1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\PC-2\AppData\Local\Temp\surefire1434071169465681009\surefirebooter10678946624027578114.jar C:\Users\PC-2\AppData\Local\Temp\surefire1434071169465681009 2020-09-03T00-20-04_324-jvmRun1 surefire13616389661971757324tmp surefire_013503891040181126685tmp"/>
+    <property name="sun.java.command" value="C:\Users\PC-2\AppData\Local\Temp\surefire16046036813046075202\surefirebooter14740382582122770444.jar C:\Users\PC-2\AppData\Local\Temp\surefire16046036813046075202 2020-09-03T23-46-15_071-jvmRun1 surefire984545210679693620tmp surefire_011250541863870979958tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\A1\tut4\my-app\target\test-classes;C:\A1\tut4\my-app\target\classes;C:\Users\PC-2\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\PC-2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\PC-2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\PC-2\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\PC-2\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-RC1\junit-jupiter-engine-5.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-RC1\junit-platform-engine-1.7.0-RC1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\A1\my-app\target\test-classes;C:\A1\my-app\target\classes;C:\Users\PC-2\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\PC-2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\PC-2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0-RC1\junit-jupiter-api-5.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\PC-2\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\PC-2\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0-RC1\junit-platform-commons-1.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0-RC1\junit-jupiter-engine-5.7.0-RC1.jar;C:\Users\PC-2\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0-RC1\junit-platform-engine-1.7.0-RC1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\PC-2"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2020-04-14"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\A1\tut4\my-app"/>
+    <property name="basedir" value="C:\A1\my-app"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\PC-2\AppData\Local\Temp\surefire1434071169465681009\surefirebooter10678946624027578114.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\PC-2\AppData\Local\Temp\surefire16046036813046075202\surefirebooter14740382582122770444.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\PC-2\AppData\Local\Temp\"/>
     <property name="java.version" value="14.0.1"/>
-    <property name="user.dir" value="C:\A1\tut4\my-app"/>
+    <property name="user.dir" value="C:\A1\my-app"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -55,5 +55,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testAdd" classname="thisone.TestCalc" time="0.032"/>
+  <testcase name="testAdd" classname="thisone.TestCalc" time="0.03"/>
+  <testcase name="testSubtract" classname="thisone.TestCalc" time="0.005">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <1> but was: <5>
+	at thisone.TestCalc.testSubtract(TestCalc.java:15)
+]]></failure>
+  </testcase>
 </testsuite>
